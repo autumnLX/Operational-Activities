@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>canvas 太阳系动画</title>
+	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta content="telephone=no" name="format-detection">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<style type="text/css">
+	    html,body{height:100%;width: 100%;font-size:10px;position:relative;margin: 0; padding: 0}
+	    .content{
+			position: relative;
+		    width: 100%;
+	    }
+
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="1000" height="1000" style="background:#000">  
+		你的浏览器不支持canvas标签！  
+    </canvas>  
+
+	<script type="javascript">
+		var ctx = document.getElementById("canvas").getContext("2d");
+		function polygon(c,n,x,y,r,angle,counterclockwise){
+			angle = angle || 0;
+			counterclockwise = counterclockwise || false;
+			c.moveTo(x + r * Math.sin(angle),(y - r * Math.cos(angle)));
+			var delta = 2 * Math.PI/n;
+			for(var i = 1; i < n; i++){
+				angle += counterclockwise ? -delta : delta;
+				c.lineTo(x + r * Math.sin(angle),(y - r * Math.cos(angle)));
+			}
+			
+			c.closePath();
+		}
+		
+		ctx.beginPath();
+		
+		polygon(ctx,3,50,70,50);
+			
+		ctx.fillStyle = "#ccc";
+		ctx.strokeStyle = "#008";
+		ctx.lineWidth = 5;
+		
+		ctx.fill();
+		ctx.stroke();
+	</script>
+
+</body>
+</html>

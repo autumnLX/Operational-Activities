@@ -1,0 +1,587 @@
+<html><head>
+          <title>以爱之名-番外篇 ▏同程火车票献给懂爱的你</title>
+          <meta charset="UTF-8">
+          <meta name="apple-mobile-web-app-capable" content="yes">
+          <meta name="apple-mobile-web-app-status-bar-style" content="black">
+          <meta content="telephone=no" name="format-detection">
+          <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+          <style type="text/css">
+              html,body{height:100%; overflow: hidden;font-size:10px;position:relative;margin: 0; padding: 0}
+
+              .content{
+                  height:100%;
+              }
+              audio:not([controls]){
+                  height:0;
+                  display:none;
+              }
+              .scroll{
+                  height:100%;
+                  width:100%;
+                  position:relative;
+                  -webkit-transition: -webkit-transform 0s;
+                  -moz-transition: -moz-transform 0s;
+                  -ms-transition: -ms-transform 0s 0s;
+                  transition: transform 0s 0s;
+                  -webkit-transform:translate3d(0,0,0) ;
+                  -moz-transform:translate3d(0,0,0) ;
+                  -ms-transform:translate3d(0,0,0) ;
+                  transform:translate3d(0,0,0) ;
+              }
+              .page {
+                  height: 100%;
+                  width: 100%;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  background-position: center center;
+                  position: relative;
+                  box-sizing:border-box;
+              }
+        /**/
+              .page1{
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/one.png);
+              }
+              .page2{
+                  background-color: #efebe2;
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/two.png?v=20150106);
+              }
+              .page3{
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/three.png?v=20150106);
+              }
+              .page4{
+                  background-color: #f0f7fF;
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/four.png?v=20150106);
+              }
+              .page5{
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/five.png?v=20150106);
+              }
+              .page6{
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/six.png?v=20150106);
+              }
+              .page7{
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/seven.png?v=20150106);
+              }
+              .page8{
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/eight.png?v=20150106);
+              }
+              .page9{
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/nine.png?v=20150106);
+              }
+              .page10{
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/ten.png?v=20150106);
+              }
+              .page11{
+                  background-size: contain;
+                  background-image: url(http://img1.40017.cn/touch/newproject/traffic/weChat/img/homeByLove/eleven_weChat.png?v=20150108);
+                  background-position-y: -30px;
+              }
+        /*.page2 .imgTxt, .page5 .imgTxt{
+            top: 80%;
+        }
+        .page3 .imgTxt, .page4 .imgTxt, .page6 .imgTxt{
+            top: 85%;
+        }*/
+              .page .imgTxt{
+                  bottom: 8%;
+              }
+              .page6 .imgTxt{
+                  bottom: 12%;
+              }
+
+              .imgTxt{
+                  width:100%;
+                  display:block;
+                  position:absolute;
+                  -webkit-transition:all .8s ease-in .8s;
+                  -moz-transition:all .8s ease-in .8s;
+                  -ms-transition:all .8s ease-in .8s;
+                  transition: all .8s ease .8s;
+                  -webkit-transform-origin: 0 0;
+                  -moz-transform-origin: 0 0;
+                  -ms-transform-origin: 0 0;
+                  transform-origin: 0 0;
+                  opacity:0;
+                  -webkit-transform:translate3d(0,-120%,0) ;
+                  -moz-transform:translate3d(0,-120%,0) ;
+                  -ms-transform:translate3d(0,-120%,0) ;
+                  transform:translate3d(0,-120%,0) ;
+              }
+
+              .tell-friends{
+                  width: 78.125%;
+                  margin: 0 auto;
+                  margin-top: -10%;
+                  line-height: 44px;
+                  height: 44px;
+                  text-align:center;
+                  background:#ffe25c;
+                  color:#d70700;
+                  font-size:20px;
+                  border-radius:8px;
+                  box-shadow: 0px 3px #ffb448;
+                  -webkit-transition: -webkit-transform 0s;
+                  -moz-transition: -moz-transform 0s;
+                  -ms-transition: -ms-transform 0s;
+                  transition: transform 0s;
+                  -webkit-transform:translate3d(0,0,0);
+                  -moz-transform:translate3d(0,0,0);
+                  -ms-transform:translate3d(0,0,0);
+                  transform:translate3d(0,0,0);
+              }
+
+              .arrow {
+                  top: 95%;
+                  position: fixed;
+                  -webkit-transform: rotate(-90deg);
+                  left: 50%;
+                  margin-left: -12px;
+                  -webkit-animation: arrow 1.8s linear 0s infinite;
+                  animation: arrow 1.8s linear 0s infinite;
+                  display: inline-block;
+                  height: 24px;
+                  width: 24px;
+                  position: relative;
+                  -webkit-transition: -webkit-transform .2s ease-in;
+                  -moz-transition: -o-transform .2s ease-in;
+                  transition: -o-transform .2s ease-in;
+                  -webkit-transform-origin: 50% 50%;
+                  -moz-transform-origin: 50% 50%;
+                  transform-origin: 50% 50%;
+              }
+              element.style {
+              }
+              .arrow {
+                  top: 95%;
+                  position: fixed;
+                  -webkit-transform: rotate(-90deg);
+                  left: 50%;
+                  margin-left: -12px;
+                  -webkit-animation: arrow 1.8s linear 0s infinite;
+                  animation: arrow 1.8s linear 0s infinite;
+              }
+              .arrow {
+                  display: inline-block;
+                  height: 24px;
+                  width: 24px
+                         position: relative;
+                  -webkit-transition: -webkit-transform .2s ease-in;
+                  -moz-transition: -o-transform .2s ease-in;
+                  transition: -o-transform .2s ease-in;
+              }
+
+              .arrow:before {
+                  left: 7px;
+                  top: 8px;
+                  -webkit-transform: rotate(45deg);
+                  -moz-transform: rotate(45deg);
+                  -ms-transform: rotate(45deg);
+                  transform: rotate(45deg);
+              }
+              .arrow:before, .arrow::after {
+                  content: "";
+                  display: block;
+                  height: 2px;
+                  width: 10px;
+                  background: #fedb52;
+                  position: absolute;
+              }
+              .arrow::before, .arrow::after {
+                  background: #fff;
+              }
+              .arrow::after {
+                  -webkit-transform: rotate(-45deg);
+                  -moz-transform: rotate(-45deg);
+                  -ms-transform: rotate(-45deg);
+                  transform: rotate(-45deg);
+                  right: 7px;
+                  top: 14px;
+              }
+              .arrow:before, .arrow::after {
+                  content: "";
+                  display: block;
+                  height: 2px;
+                  width: 10px;
+                  background: #fedb52;
+                  position: absolute;
+              }
+              .arrow:before {
+                  left: 7px;
+                  top: 8px;
+                  -webkit-transform: rotate(45deg);
+                  -moz-transform: rotate(45deg);
+                  -ms-transform: rotate(45deg);
+                  transform: rotate(45deg);
+              }
+              .arrow::before, .arrow::after {
+                  background: #fff;
+              }
+
+              @-webkit-keyframes arrow {
+                  from {
+                           -webkit-transform: translate3d(0,0,0) rotate(-90deg);
+                           -moz-transform: translate3d(0,0,0) rotate(-90deg);
+                           transform: translate3d(0,0,0) rotate(-90deg);
+                           opacity: 1;
+                       }
+
+                  50% {
+                          -webkit-transform: translate3d(0,-8px,0) rotate(-90deg);
+                          -moz-transform: translate3d(0,-8px,0) rotate(-90deg);
+                          transform: translate3d(0,-8px,0) rotate(-90deg);
+                          opacity: .4;
+                      }
+
+                  100% {
+                           -webkit-transform: translate3d(0,0,0) rotate(-90deg);
+                           -moz-transform: translate3d(0,0,0) rotate(-90deg);
+                           transform: translate3d(0,0,0) rotate(-90deg);
+                           opacity: 1;
+                       }
+              }
+              @media screen and (min-width: 360px) {
+                  html,body{font-size:12px;}
+              }
+              @media screen and (min-width: 400px) {
+                  html,body{font-size:14px;}
+              }
+              @media screen and (min-width: 440px) {
+                  html,body{font-size:16px;}
+              }
+              @media screen and (min-width: 480px) {
+                  html,body{font-size:18px;}
+              }
+              @media screen and (min-width: 540px) {
+                  html,body{font-size:20px;}
+              }
+              @media screen and (min-width: 640px) {
+                  html,body{font-size:22px;}
+              }
+              .layer {
+                  position: fixed;
+                  left: 0;
+                  top: 0;
+                  height: 100%;
+                  width: 100%;
+                  background: rgba(0,0,0,.6);
+                  display: none;
+                  z-index: 99;
+              }
+              .handtips {
+                  display: none;
+                  position: fixed;
+                  z-index: 100;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  background-color: rgba(0,0,0,0.6);
+                  color: White;
+                  font-size: 10px;
+              }
+              .handtips p {
+                  float: right;
+                  padding: 25px 5px 0 5px;
+              }
+              .handtips img {
+                  width: 50px;
+                  float: right;
+                  -webkit-animation: share_hand 500ms infinite;
+                  -webkit-transform: translate3d(0,0,0);
+              }
+          </style>
+      </head>
+<body>
+<div class="loading"></div>
+<div class="content">
+    <div id="scroll" class="scroll">
+        <div class="page page1">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/oneTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page2">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/twoTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page3">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/threeTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page4">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/fourTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page5">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/fiveTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page6">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/sixTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page7">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/sevenTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page8">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/eightTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page9">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/nineTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page10">
+            <img src="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/tenTxt-1.png" class="imgTxt floating">
+        </div>
+        <div class="page page11">
+            <div class="imgTxt floating">
+               <div class="tell-friends" onclick="_tcTraObj._tcTrackEvent('click', 'wx-hapterBtn', '买票回家-番外篇', 'hapterBtn');">买票回家</div>
+            </div>
+        </div>
+    </div>
+    <!--<audio src="http://img1.40017.cn/touch/app/pub/double12/trainTicket/music.mp3" loop="" preload="auto" autoplay="true"></audio>
+    <span class="music"></span>-->
+</div>
+<div class="arrow" style="display: block;"></div>
+<div class="layer" style="height: 100%;"></div>
+
+<div class="handtips" id="handtips">
+    <p>
+        戳这里
+    </p>
+    <img src="http://img1.40017.cn/touch/cn/deal/scratchoff/share_hand.png">
+</div>
+
+<input type="hidden" name="tcshareurl" value="http://img1.40017.cn/touch/newproject/traffic/weChat/html/homeByLove/trainHapterStory.html?wvc2=1&amp;wvc1=1">
+<input type="hidden" name="tcshareimg" value="http://img1.40017.cn/touch/newproject/traffic/train/html/trainTicketHapterStory/images/favicon.png">
+<input type="hidden" name="tcsharetext" value="以爱之名-番外篇 ▏同程火车票献给懂爱的你。http://img1.40017.cn/touch/newproject/traffic/weChat/html/homeByLove/trainHapterStory.html?wvc2=1&amp;wvc1=1">
+<input type="hidden" name="tcDesc" value="以爱之名-番外篇 ▏同程火车票献给懂爱的你。http://img1.40017.cn/touch/newproject/traffic/weChat/html/homeByLove/trainHapterStory.html?wvc2=1&amp;wvc1=1">
+
+<script src="http://js.40017.cn/touch/app/public/zepto.20140624.js" type="text/javascript"></script>
+<script src="http://js.40017.cn/cn/min/??/touch/app/pub/public/getClientInfo.2.0.1.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://js.40017.cn/cn/min/??/touch/app/pub/public/share.js?v=20141216"></script>
+
+<script type="text/javascript">
+
+var isTc = /tctravel/.test(navigator.userAgent.toLowerCase()),
+        iosSeven = /7_1_2/.test(navigator.userAgent.toLowerCase()),
+        iosSevenOne = /7_1_1/.test(navigator.userAgent.toLowerCase()),
+        pageHight = $("html").height(),
+        pageController = {
+                currPage: 0,
+                page: document.querySelector('#scroll'),
+                totalPage: document.querySelectorAll('.page').length,
+                pageHeight: function () {
+                    return window.innerHeight;
+                },
+                startY: 0,
+                endY: 0,
+                positionY: 0,
+                init: function () {
+                    this.touch = ('ontouchstart' in document); //判定是否为手持设备
+                    this.Start = this.touch ? 'touchstart' : 'mousedown'; //支持触摸式使用相应的事件替代
+                    this.Move = this.touch ? 'touchmove' : 'mousemove';
+                    this.End = this.touch ? 'touchend' : 'mouseup';
+                    document.addEventListener(this.Start, this.proxy(this, this.startEvent), false);
+                    document.addEventListener(this.Move, this.proxy(this, this.moveEvent), false);
+                    document.addEventListener(this.End, this.proxy(this, this.endEvent), false);
+
+                },
+                startEvent: function (e) {
+                    if (!(e.target.tagName.toUpperCase() === 'A' || e.target.tagName.toUpperCase() === 'INPUT' || e.target.tagName.toUpperCase() === 'BUTTON' || e.target.tagName.toUpperCase() === 'P' || e.target.id === 'handtips')) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        this.startY = e.touches[0].clientY;
+                        this.endY = e.touches[0].clientY;
+                        //msgController.slideOut(document.querySelector('[data="' + this.currPage + '"]'));
+                    }
+                },
+                moveEvent: function (e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    this.endY = e.touches[0].clientY;
+                    var moveY = -this.currPage * this.pageHeight() + (this.endY - this.startY),
+                            scrollw = this.endY - this.startY;
+                    //if (this.currPage == 6 && ($("#startCity").html() == "" || $("#startCity").html() == "请点击输入") && ($("#endCity").html() == "" || $("#endCity").html() == "请点击输入") && scrollw < 0) {
+
+                    if (this.currPage == 6 && scrollw < 0 && !$.cookie("join")) {
+                        return;
+                    }
+                    if (moveY < 0 && moveY > -((this.totalPage - 1) * this.pageHeight())) {
+                        css3.setY(this.page, moveY);
+                    }
+
+                },
+                endEvent: function (e) {
+                    var _this = this;
+
+                    if (this.currPage == 11 && this.endY - this.startY < 0 && !$.cookie("join")) {
+                        return;
+                    }
+
+                    css3.setDuration(this.page, '.3s');
+                    if (this.endY - this.startY < 0 && (this.currPage + 1) < this.totalPage) {//向上
+                        if (this.endY - this.startY < -120) {
+                            this.currPage++;
+                        }
+                        var moveY = this.currPage * this.pageHeight();
+                        css3.setY(this.page, -moveY);
+                    } else if (this.endY - this.startY > 0 && this.currPage > 0) {
+                        if (this.endY - this.startY > 100) {
+                            this.currPage--;
+                        }
+                        var moveY = this.currPage * this.pageHeight();
+                        css3.setY(this.page, -moveY);
+                    }
+                    if (this.currPage == 11 ) {
+                        $(".arrow").hide();
+                    } else {
+                        $(".arrow").show();
+                    }
+                    var nowPage = 'page' + (this.currPage + 1);
+                    $("." + nowPage).css("height", pageController.pageHeight());
+                    $("." + nowPage + " .per").addClass("showPer");
+                    var img = $("." + nowPage + " .floating");
+                    window.setTimeout(function () {
+                        for (var i = 0; i < img.length; i++) {
+                            (function (i) {
+                                window.setTimeout(function () {
+                                    img.eq(i).css({ "-webkit-transform": "translate3d(0,0,0)", "opacity": "1" });
+                                }, 300 + (i * 1300));
+                            })(i);
+                        }
+                    }, 0)
+                    window.setTimeout(function () { css3.setDuration(_this.page, '0s') }, 500)
+                    this.startY = 0;
+                    this.endY = 0;
+                },
+                proxy: function (context, fn) {
+                    return function () {
+                        return fn.apply(context, arguments);
+                    }
+
+                }
+
+            }
+    var css3 = {
+        timer: null,
+        setY: function (ele, dist) {
+            if (!ele) return;
+            window.clearTimeout(this.timer);
+            timer = window.setTimeout(
+                    function () {
+                        ele.style.webkitTransform = 'translate3d(0,' + (dist) + 'px,0)';
+                    }, 50);
+        },
+        setX: function (ele, dist) {
+            if (!ele) return;
+            window.clearTimeout(this.timer);
+            timer = window.setTimeout(
+                    function () {
+                        ele.style.webkitTransform = 'translate3d(' + (dist) + 'px,0,0)';
+                    }, 50);
+        },
+        rotateX: function (ele, deg) {
+            if (!ele) return;
+            ele.style.webkitTransform = 'rotateX(' + deg + 'deg)';
+
+        },
+        setDuration: function (ele, time) {
+            ele.style.webkitTransitionDuration = time;
+        }
+    }
+
+    document.body.addEventListener('touchend', function (e) {
+    }, false);
+
+
+    window.onload = function () {
+        $(".loading").hide();
+        $(".content").show();
+
+        if(!isTc){
+            $('.tell-friends').addClass('download');
+        }
+
+        for (var i = 0; i < $(".page1 img").length; i++) {
+            (function (i) {
+                window.setTimeout(function () {
+                    $(".page1 img").eq(i).css({ "-webkit-transform": "translate3d(0,0,0)", "opacity": "1" });
+                }, 300 + (i * 1600));
+            })(i);
+        }
+        pageController.init();
+
+
+
+        $(".tell-friends").on("tap", function () {
+
+            if ($(this).hasClass("disable")) return;
+
+            if ($(this).hasClass("download")) {
+                location.href = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3827070276e49e30&redirect_uri=http://wx.17u.cn/flight/index.html?showwxpaytitle=2&response_type=code&scope=snsapi_base&state=123#wechat_redirect";
+            };
+
+            /*if (isTc) {
+
+                //share();
+            } else {
+                $("#handtips").css("height", pageHight).show();
+            }*/
+        })
+
+        $(".layer,#handtips").on("tap", function () {
+            $(".layer,#handtips").hide();
+        });
+
+        function share(url) {
+            var jsonObj = {
+                tcshareurl: $('input[name="tcshareurl"]').val(),
+                tcshareimg: $('input[name="tcshareimg"]').val(),
+                tcsharetxt: $('input[name="tcsharetext"]').val(),
+                tcsharetype: false //ture:只分享朋友圈 false:普通分享
+            };
+
+            if (window.Android && Android.shareInfoFromH5)//android分享
+            {
+                if (jsonObj.tcsharetype) {
+                    Android.shareToFriendSceneryWallet(jsonObj.tcshareurl, jsonObj.tcsharetxt);
+                }
+                else {
+                    Android.shareInfoFromH5(jsonObj.tcsharetxt, jsonObj.tcshareimg, jsonObj.tcshareurl, jsonObj.tcsharetype);
+                }
+            }
+            else if (window._tc_ntv_bar && window._tc_ntv_bar.shareInfoFromH5)//IOS分享
+            {
+                var shareData = { param: jsonObj, CBPluginName: "_tc_web_bar", CBTagName: "tag_click_share" };
+                shareData = encodeURIComponent(JSON.stringify(shareData));
+                window._tc_ntv_bar.shareInfoFromH5(shareData);
+            }
+        }
+
+    }
+
+
+
+</script>
+<script type="text/javascript">
+    var _tcq = _tcq || [];
+    var _timediff = -1;
+    var refid = $.cookie("17uCNRefId") ? $.cookie("17uCNRefId").split("&")[0].replace("RefId=", "") : 0;
+    var userid = $.cookie("B2cCnMemberLogStat") ? $.cookie("B2cCnMemberLogStat").split("&")[1].replace("userid=", "") : 0;
+    if (typeof _tcopentime != "undefined")
+    { _timediff = new Date().getTime() - _tcopentime; }
+    _tcq.push(['_serialid', 0]);
+    _tcq.push(['_vrcode', '10003-2016-0']);
+    _tcq.push(['_refId', refid]);
+    _tcq.push(['_userId', userid]);
+    _tcq.push(['_openTime', _timediff]);
+    _tcq.push(['_trackPageview', '/火车票/以爱之名-番外篇']);
+    </script>
+    <script type='text/javascript' src="http://vstlog.17usoft.com/vst.ashx" charset="utf-8"></script>
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff124dc8d3ca8e5fe66210d2c8c4c9c73' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?f16f5c22163895f37f4890af9f161ae9";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</body></html>

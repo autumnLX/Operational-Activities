@@ -50,7 +50,6 @@ $.fn.show = function () {
 };
 
 //localstorage数据获取方法
-//
 var StorageHelp = {
     SetStorage: function (e, g, exp) {
         if (window.localStorage) {
